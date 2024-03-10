@@ -9,8 +9,6 @@
   <a href="https://github.com/makleyston-ufc/ufcity-ai-models"> <img src="https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white"> </a>
 </div>
 
-# UFCity AI models
-
 ## [Slow traffic forecast](/slow-traffic-forecast)
 **Dataset:** [Urban traffic density in cities](https://www.kaggle.com/datasets/tanishqdublish/urban-traffic-density-in-cities?resource=download)
 
