@@ -9,7 +9,7 @@
   <a href="https://github.com/makleyston-ufc/ufcity-ai-models"> <img src="https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white"> </a>
 </div>
 
-## [Slow traffic forecast](/slow-traffic-forecast)
+## [Slow traffic forecast](/ufcity-ai-models/slow-traffic-forecast)
 **Dataset:** [Urban traffic density in cities](https://www.kaggle.com/datasets/tanishqdublish/urban-traffic-density-in-cities?resource=download)
 
 **Goal:** Identify slowdowns in the city based on weather conditions, time of day, peak hours, accidents, and traffic density.
@@ -26,7 +26,7 @@
 
 <a href="https://github.com/makleyston-ufc/ufcity-ai-models/tree/main/slow-traffic-forecast"> <img src="https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white"> </a>
 
-## [Weather forecast](/weather-forecast)
+## [Weather forecast](/ufcity-ai-models/weather-forecast)
 **Dataset:** [CityPulse](http://iot.ee.surrey.ac.uk:8080/datasets.html#weather)
 
 **Goal:** Predict series trends based on climate data, such as pressure, humidity, temperature, wind direction, and speed sensors.
