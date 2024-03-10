@@ -1,4 +1,4 @@
-<!-- <div class="view">
+<div class="view">
 <img src="https://makleyston-ufc.github.io/ufcity/assets/img/ufcity-logo.png" alt="UFCity" width="200"/>
 <p><b>Building smart cities smartly.</b></p>
 </div>
@@ -7,20 +7,20 @@
   <a href="https://makleyston-ufc.github.io/ufcity"> <img src="https://img.shields.io/badge/UFCity_webpage-0076D6?style=for-the-badge&logo=internetexplorer&logoColor=white"> </a>
 
   <a href="https://github.com/makleyston-ufc/ufcity-ai-models"> <img src="https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white"> </a>
-</div> -->
+</div>
 
 # UFCity AI models
 
 ## [Slow traffic forecast](/slow-traffic-forecast)
 **Dataset:** [Urban traffic density in cities](https://www.kaggle.com/datasets/tanishqdublish/urban-traffic-density-in-cities?resource=download)
 
-**Objetivo:** identificar lentidão na cidade com base nas condições, climáticas, hora, dia, horário de pico, acidentes e densidade do tráfego da cidade.
+**Goal:** Identify slowdowns in the city based on weather conditions, time of day, peak hours, accidents, and traffic density.
 
-**Método utilizado:** Regressão baseada em árvores de decisão.
+**Method used:** Regression based on decision trees.
 
-**Ferramenta utilizada:** Random Forest Regressor
+**Tool used:** Random Forest Regressor.
 
-**Resultado:**  
+**Result:**  
 - Mean Squared Error: 1.289537341629248
 - R2 Score: 0.9688701457764887
 
@@ -28,16 +28,16 @@
 
 <a href="https://github.com/makleyston-ufc/ufcity-ai-models/tree/main/slow-traffic-forecast"> <img src="https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white"> </a>
 
-## [weather-forecast](/weather-forecast)
+## [Weather forecast](/weather-forecast)
 **Dataset:** [CityPulse](http://iot.ee.surrey.ac.uk:8080/datasets.html#weather)
 
-**Objetivo:** prever tendência de séries com base em dados climáticos, como pressure, humidity, temperature, wind direction, and speed sensors.
+**Goal:** Predict series trends based on climate data, such as pressure, humidity, temperature, wind direction, and speed sensors.
 
-**Método utilizado:** Regressão baseada em médias móveis para analisar tendências de séries.
+**Method used:** Regression based on moving averages to analyze series trends.
 
-**Ferramenta utilizada:** AutoRegressive Integrated Moving Average (ARIMA)
+**Tool used:** AutoRegressive Integrated Moving Average (ARIMA)
 
-**Resultado:**  
+**Result:**  
 - hum  ARIMA(5,1,2)(0,0,0)[0]          
 - tempm  ARIMA(1,1,3)(0,0,0)[0]          
 - wspdm  ARIMA(0,1,2)(0,0,0)[0]          
